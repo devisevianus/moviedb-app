@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="16dp">
+
+        <View
+            android:id="@+id/placeholder_author_avatar"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/bg_circle_image_shimmer_placeholder"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <View
+            android:id="@+id/placeholder_author_name"
+            android:layout_width="0dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/bg_text_shimmer_placeholder"
+            app:layout_constraintTop_toTopOf="@id/placeholder_author_avatar"
+            app:layout_constraintStart_toEndOf="@id/placeholder_author_avatar"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <View
+            android:id="@+id/placeholder_author_review"
+            android:layout_width="0dp"
+            android:layout_height="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_text_shimmer_placeholder"
+            app:layout_constraintTop_toBottomOf="@id/placeholder_author_name"
+            app:layout_constraintStart_toStartOf="@id/placeholder_author_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

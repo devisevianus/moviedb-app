@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MovieDB</string>
+
+    <!-- Genre List -->
+    <string name="label_choose_category">Choose category</string>
+
+    <!-- Movie Detail -->
+    <string name="label_total_votes">%d votes</string>
+    <string name="label_review_with_total">Review (%d)</string>
+    <string name="label_language">Language</string>
+    <string name="label_release_date">Release date</string>
+    <string name="label_cast">Cast</string>
+    <string name="label_trailers">Trailers</string>
+    <string name="message_no_review">No review</string>
+
+    <!-- General -->
+    <string name="action_reload">Reload</string>
+    <string name="message_failed_load_data">Failed to load data</string>
+
+</resources>
